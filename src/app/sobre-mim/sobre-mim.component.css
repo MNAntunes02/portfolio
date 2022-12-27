@@ -1,0 +1,9 @@
+.radial-gradient{
+    background: radial-gradient(#490EF0 , transparent 60%);
+}
+
+.container-objects-move{
+    background-image: url(../../assets/madeira.jpg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,7 @@
+.item-menu{
+    @apply border-l border-gray-200 px-2 items-center;
+}
+
+.item-active{
+    @apply font-black text-indigo-800 border-indigo-800;
+}

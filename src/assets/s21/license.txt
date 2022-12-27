@@ -1,0 +1,11 @@
+Model Information:
+* title:	Samsung Galaxy S21 FE in White
+* source:	https://sketchfab.com/3d-models/samsung-galaxy-s21-fe-in-white-d67f3d9318c041c7a9a9b67c84c97423
+* author:	Evan.Blass (https://sketchfab.com/Evan.Blass)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Samsung Galaxy S21 FE in White" (https://sketchfab.com/3d-models/samsung-galaxy-s21-fe-in-white-d67f3d9318c041c7a9a9b67c84c97423) by Evan.Blass (https://sketchfab.com/Evan.Blass) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

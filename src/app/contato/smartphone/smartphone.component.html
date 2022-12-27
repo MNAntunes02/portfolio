@@ -1,0 +1,8 @@
+<ngt-primitive *ngIf="celular$ | async as celular" 
+                [object]="celular.scene"
+                [scale]="35"
+                [position]="position"
+                (ready)="getReady($event)"
+                (beforeRender)="onCubeBeforeRender($event)"
+                >
+</ngt-primitive>

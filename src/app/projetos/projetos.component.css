@@ -1,0 +1,39 @@
+.nlw-esports{
+    background-image: url(../../assets/nlw-web.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.rocketq{
+    background-image: url(../../assets/rocketq-web.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.jogo-forca{
+    background-image: url(../../assets/jogo-forca-web.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.semana-21-1{
+    background-image: url(../../assets/21-parte-1-web.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.semana-21-2{
+    background-image: url(../../assets/21-parte-2-web.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.semana-21-3{
+    background-image: url(../../assets/21-parte-3-web.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.flip{
+    @apply scale-125;
+}
