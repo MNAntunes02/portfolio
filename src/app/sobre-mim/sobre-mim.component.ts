@@ -54,7 +54,7 @@ export class SobreMimComponent implements OnInit , AfterViewInit {
     })
     //==========================================================================================
 
-
+    //animação da mesa =========================================================================
     gsap.timeline({
       scrollTrigger: {
         trigger: this.mesa.nativeElement,
@@ -66,6 +66,7 @@ export class SobreMimComponent implements OnInit , AfterViewInit {
     .to(this.notebook.nativeElement ,   { yPercent: 50 , xPercent: 120 , rotation: 0}, 0)
     .to(this.celular.nativeElement ,    { yPercent: 100 , xPercent: -400, rotation: -45 }, 0)
     .to(this.cafe.nativeElement ,       { yPercent: -150 , xPercent: -500, rotation: -40 }, 0)
+    //==========================================================================================
   }
 
 }

@@ -1,6 +1,6 @@
 <!-- <app-header></app-header> -->
-<header class="w-full bg-gradient-to-t to-black from-transparent fixed z-50 px-2">
-    <div class="flex mx-auto container justify-between py-10 items-center relative">
+<header class="w-full bg-gradient-to-t to-black from-transparent fixed z-50 px-2 lg:px-12">
+    <div class="flex mx-auto justify-between py-10 items-center relative">
       <div class="text-gray-300 text-xl font-bold ">Portfólio</div>
       <div [ngClass]="{'-right-36': !menu,'-right-3': menu}" class="text-gray-300 font-medium gap-10 flex lg:flex-row lg:static flex-col absolute -right-36 top-3 bg-black p-10 lg:p-0 lg:bg-transparent rounded-lg">
         <label for="check">
@@ -22,16 +22,19 @@
     </div>
 </header>
 
-<div class="absolute top-0 w-full">
-  <video  src="../assets/wave-tech-bg.mp4"
-          class="w-full"
+<!-- <div class="absolute top-0 w-full -z-50 h-screen overflow-hidden">
+  <video  class="h-full w-full object-cover"
           autoplay
           loop
           muted
-          plays-inline
+          preload="metadata"
           >
+          <source class="h-full" src="../assets/wave-tech-bg.mp4" type="video/mp4">
+          
   </video>
-</div>
+</div> -->
+
+
 <app-home id="home"></app-home>
 <!-- <img src="../assets/wave.png" alt="" class="brightness-95 absolute top-96 lg:-top-10 left-0 w-full -z-50"> -->
 <app-sobre-mim id="sobre-mim"></app-sobre-mim>

@@ -12,6 +12,7 @@ import { NgtAmbientLight, NgtSpotLight, NgtPointLight } from '@angular-three/cor
 import { NgtSobaFlyControls , NgtSobaOrbitControls } from '@angular-three/soba/controls';
 import { NgtColorAttribute } from '@angular-three/core/attributes'
 import { NgtPrimitive } from '@angular-three/core/primitive'
+import { RouterModule } from '@angular/router'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -53,7 +54,8 @@ import { SmartphoneComponent } from './contato/smartphone/smartphone.component';
     NgtColorAttribute,
     NgtPrimitive,
     FontAwesomeModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
